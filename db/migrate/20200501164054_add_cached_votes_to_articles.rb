@@ -11,6 +11,6 @@ class AddCachedVotesToArticles < ActiveRecord::Migration[5.2]
     end
 
     # Uncomment this line to force caching of existing votes
-    Article.find_each(&:update_cached_votes)
+    #Article.find_each(&:update_cached_votes)
   end
 end
