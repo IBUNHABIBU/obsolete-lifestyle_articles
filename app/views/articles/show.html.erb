@@ -15,7 +15,17 @@
   <strong>Content:</strong>
   <%= @article.content %>
 </p>
-
+<%= link_to like_article_path(@article), class:"like-btn", method: :put , remote: :true %>
+<div>
+  <span>
+    <p>
+      <i class="fa fa-thumbs-up fa-3x"></i>
+    </p>
+  </span>
+</div>
+<span class="likes-count">
+<%= @article.get_upvotes.size %>
+</span>
 <p>
   <strong>User:</strong>
   <%= @article.user %>

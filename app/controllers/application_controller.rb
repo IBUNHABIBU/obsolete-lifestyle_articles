@@ -1,4 +1,9 @@
+require "application_responder"
+
 class ApplicationController < ActionController::Base
+  self.responder = ApplicationResponder
+  respond_to :html
+
   include SessionsHelper
   protect_from_forgery with: :exception
   helper_method :logged_in?

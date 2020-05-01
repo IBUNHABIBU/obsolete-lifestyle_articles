@@ -1,6 +1,7 @@
 class ArticlesController < ApplicationController
-  before_action :set_article, only: [:show, :edit, :update, :destroy]
-   before_action :logged_in_user, except: %i[index show]
+  before_action :set_article, only: [:show, :edit, :update, :destroy, :vote]
+   before_action :logged_in_user, except: %i[index show vote]
+   respond_to :js, :json, :html 
 
   # GET /articles
   # GET /articles.json
@@ -60,6 +61,13 @@ class ArticlesController < ApplicationController
       format.html { redirect_to articles_url, notice: 'Article was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+  def vote 
+    if !current_user.liked? @article 
+      @article.liked_by current_user
+      elsif current_user.liked?@article
+       @article.unliked_by current_user 
+     end
   end
 
   private
