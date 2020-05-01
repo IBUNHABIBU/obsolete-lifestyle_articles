@@ -1,0 +1,9 @@
+<% obj.each do |article| %>
+
+
+<% if article.categories.any? %>
+
+<p>Categories: <%= render article.categories %></p>
+<% end %>
+
+<% end %>
