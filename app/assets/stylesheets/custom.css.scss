@@ -21,7 +21,7 @@ header{
   color:#f76107;
 }
 #home-btn{
-  color:#fedac3;
+  color:#f76107;
 }
 .category-ul{
   width:auto;
@@ -60,31 +60,10 @@ header{
   margin-right:5rem;
  }
 
-// .auth-div-drop .authentication-drop .auth-li-drop {
-//   text-align:center;
-//   float:left;
-//   position:relative;
-  
-// }
-
-// .auth-div-drop .authentication-drop .auth-li-drop:hover {
-// background:blue;
-  
-// }
-
-// .auth-div-drop .authentication-drop .auth-li-drop:hover >ul{
-//   display:block;
-// }
-
-// .auth-div-drop .authentication-drop .auth-li-drop{
-//   display:none;
-// }
-
 .dropbtn {
   background-color:White;
   color: #cfcecc;
-  // padding: 16px;
-  font-size: 16px;
+  font-size:2rem;
   border: none;
   cursor: pointer;
   text-transform:uppercase;
@@ -92,6 +71,7 @@ header{
 
 .dropdown {
   display: inline-block;
+  margin-right:2rem;
 }
 
 .dropdown-content {
@@ -117,7 +97,7 @@ header{
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #f1f1f1;
 }
 
 
