@@ -2,7 +2,7 @@
 
 class ArticlesController < ApplicationController
   before_action :set_article, only: %i[show edit update destroy vote]
-  before_action :logged_in_user, except: %i[index show]
+  before_action :logged_in_user, except: %i[index show ]
   respond_to :js, :json, :html
 
   # GET /articles
