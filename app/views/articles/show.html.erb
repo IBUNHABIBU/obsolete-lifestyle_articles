@@ -1,34 +1,33 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
   <%= @article.title %>
 </p>
 
 
 <p>
-  <strong>Image:</strong>
   <%= image_tag(@article.image) %>
 </p>
 
 <p>
-  <strong>Content:</strong>
+  
   <%= @article.content %>
 </p>
-<%= link_to like_article_path(@article), class:"like-btn", method: :put , remote: :true %>
+<%= link_to like_article_path(@article), class:"like-btn", method: :put , remote: :true do %>
 <div>
   <span>
     <p>
-      <i class="fa fa-thumbs-up fa-3x"></i>
+      <i class="fa fa-thumbs-up fa-2x"></i>
     </p>
   </span>
 </div>
+<% end %>
 <span class="likes-count">
 <%= @article.get_upvotes.size %>
 </span>
 <p>
-  <strong>User:</strong>
-  <%= @article.user %>
+  <strong>Author:</strong>
+  <%= @article.user.name %>
 </p>
 <% if @article.categories.any? %>
 
@@ -36,5 +35,5 @@
 
 <% end %>
 
-<%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Back', articles_path %>
+<!--<%= link_to 'Edit', edit_article_path(@article) %> |-->
+<!--<%= link_to 'Back', articles_path %>-->
