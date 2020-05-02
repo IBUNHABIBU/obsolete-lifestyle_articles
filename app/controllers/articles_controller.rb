@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class ArticlesController < ApplicationController
-  before_action :set_article, only: [:show, :edit, :update, :destroy, :vote]
-   before_action :logged_in_user, except: %i[index show vote]
-   respond_to :js, :json, :html 
+  before_action :set_article, only: %i[show edit update destroy vote]
+  before_action :logged_in_user, except: %i[index show]
+  respond_to :js, :json, :html
 
   # GET /articles
   # GET /articles.json
@@ -11,8 +13,7 @@ class ArticlesController < ApplicationController
 
   # GET /articles/1
   # GET /articles/1.json
-  def show
-  end
+  def show; end
 
   # GET /articles/new
   def new
@@ -20,8 +21,7 @@ class ArticlesController < ApplicationController
   end
 
   # GET /articles/1/edit
-  def edit
-  end
+  def edit; end
 
   # POST /articles
   # POST /articles.json
@@ -62,22 +62,24 @@ class ArticlesController < ApplicationController
       format.json { head :no_content }
     end
   end
-  def vote 
-    if !current_user.liked? @article 
+
+  def vote
+    if !current_user.liked? @article
       @article.liked_by current_user
-      elsif current_user.liked?@article
-       @article.unliked_by current_user 
+    elsif current_user.liked? @article
+      @article.unliked_by current_user
      end
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_article
-      @article = Article.find(params[:id])
-    end
 
-    # Only allow a list of trusted parameters through.
-    def article_params
-      params.require(:article).permit(:title, :content, :image, :user_id, category_ids: [])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_article
+    @article = Article.find(params[:id])
+  end
+
+  # Only allow a list of trusted parameters through.
+  def article_params
+    params.require(:article).permit(:title, :content, :image, :user_id, category_ids: [])
+  end
 end
