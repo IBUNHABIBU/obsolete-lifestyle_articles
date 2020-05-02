@@ -24,7 +24,14 @@
 
 <div class="auth-div">
 <li class="auth-li">
+  <%= link_to "Art", new_article_path , class:"auth-link" %>
+  </li>
+<li class="auth-li">
+  <%= link_to "Cat", new_category_path , class:"auth-link" %>
+  </li>
+<li class="auth-li">
 <%= link_to "Log out", logout_path, method: :delete, class:"auth-link" %>
+
 </li>
 </div>
 <% else %>
