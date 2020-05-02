@@ -1,9 +1,20 @@
-
+<ul>
+<div class="navibar">
+  <li>
+    <h4>Lifestyle</h2>
+  </li>
+<% Category.all.each do |category| %>
+<li>
+  <%= link_to "#{category.name}" , category_path(category) %>
+</li>
+<% end %>
 <% if logged_in? %>
 
 <%= link_to "Log out", logout_path, method: :delete %>
 </li>
 <% else %>
+<div class="member">
+  
 <li>
 <%= link_to 'Login', login_path %> |
 </li>
@@ -11,6 +22,9 @@
 <li>
 <%= link_to 'Register', signup_path %>
 </li>
+</div>
+
 <% end %>
 </ul>
 </div>
+

@@ -1,2 +1,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+.navibar{
+  display:flex; 
+  align-content:space-between;
+
+}
+.navibar ul li {
+  display:flex;
+   align-content:space-between;
+  margin-left:10rem;
+  font-size:1rem;
+  list-style:none;
+}
