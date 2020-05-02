@@ -2,7 +2,12 @@
 
     <h1 class="navlogo">LiFEsTlye<span class="logo-dot">.</span></h2>
 
-<div class="category-list">   
+<div class="category-list"> 
+<ul class="category-ul">
+<li class="category-li">
+  <%= link_to "Home" , root_path, class:"cat-link-names", id:"home-btn" %>
+</li>
+</ul>
 <% Category.all.each do |category| %>
 
 <ul class="category-ul">
@@ -17,8 +22,11 @@
   
 <% if logged_in? %>
 
-<%= link_to "Log out", logout_path, method: :delete %>
-
+<div class="auth-div">
+<li class="auth-li">
+<%= link_to "Log out", logout_path, method: :delete, class:"auth-link" %>
+</li>
+</div>
 <% else %>
 <div class="auth-div">
 <li class="auth-li">
