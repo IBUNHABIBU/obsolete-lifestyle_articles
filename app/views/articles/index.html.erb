@@ -1,17 +1,23 @@
-
-    <% @articles.each do |article| %>
-      
-  
-        <%= article.title %>
-        <%= article.content %>
-         <%= image_tag(article.image) %>
+<div class="all-cat">
+    <div class="upper-part">
         
-    <%= link_to "#{article.title}", article %>
-        <!--<td><%= link_to 'Edit', edit_article_path(article) %></td>-->
-        <!--<td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>-->
+    </div>
+    <div class="lower-part">
+        <% @articles.each do |article| %>
       
+      
+        <%= link_to "#{article.title}", article ,  class:"article-title" %>
+       <div class="article-body">
+           
+        <%= article.content %>
+       </div>
+        <div class="article-img">
+             <%= image_tag(article.image) %>
+        </div>
+        
     <% end %>
+    </div>
+     
+</div>
+   
  
-<br>
-
-<%= link_to 'New Article', new_article_path %>

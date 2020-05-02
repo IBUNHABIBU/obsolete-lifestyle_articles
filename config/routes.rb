@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   resources :categories
   resources :articles do
     member do
-      put "like" => "articles#vote"
+      put 'like' => 'articles#vote'
     end
   end
   get '/login', to: 'sessions#new'
