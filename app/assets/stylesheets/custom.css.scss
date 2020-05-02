@@ -1,14 +1,59 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-.navibar{
-  display:flex; 
-  align-content:space-between;
 
+header{
+  background-color:#fff;
 }
-.navibar ul li {
-  display:flex;
-   align-content:space-between;
-  margin-left:10rem;
-  font-size:1rem;
+.navlogo{
+  position:absolute;
+  padding:3px;
+  float:left;
+  margin-left:2px;
+  margin-top:10px;
+  color:#5a514c;
+}
+.category-list
+{
+  width:50%;
+   margin-left:22rem;
+}
+.logo-dot{
+  color:#f76107;
+}
+.category-ul{
+  width:auto;
+  float:left;
+  margin-top:18px;
+  margin-left:1rem;
+}
+.category-li{
+  display:inline-block;
+  // padding:5px 30px;
+}
+.cat-link-names{
+  text-align:center;
+  text-decoration:none;
+  font-size:2rem;
+  text-transform:uppercase;
+  color:#cfcecc;
+}
+.authentication{
+  float:right;
+}
+.auth-link{
+  text-align:center;
+  text-decoration:none;
+  font-size:2rem;
+  text-transform:uppercase;
+  color:#cfcecc;
+}
+.auth-li{
   list-style:none;
+  width:auto;
+  float:left;
+  margin-top:18px;
+  margin-left:1rem;
+}
+.auth-div{
+  margin-right:5rem;
 }
