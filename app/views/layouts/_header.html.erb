@@ -23,8 +23,18 @@
 <% if logged_in? %>
 
 <div class="auth-div">
+  
+  <li class="auth-li">
+<div class="dropdown">
+  <button class="dropbtn">All</button>
+  <div class="dropdown-content">
+    <%= link_to "Category", categories_path, class:"auth-link" %>
+    <%= link_to "Article", articles_path, class:"auth-link" %>
+  </div>
+</div>
+  </li>
+  
 <li class="auth-li">
- 
 <div class="dropdown">
   <button class="dropbtn">Create</button>
   <div class="dropdown-content">
