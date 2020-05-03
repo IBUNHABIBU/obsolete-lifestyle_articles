@@ -5,14 +5,16 @@
     <div class="lower-part">
          <% @articles.each do |article| %>
         <div class="lower-col">
-        <%= link_to "#{article.title}", article ,  class:"article-title" %>
-           <div class="article-body">
-            <%= article.content %>
-           </div>
-        <div class="article-img">
+          
+        <div class="article-img imsize">
              <%= image_tag(article.image) %>
         </div>
-         </div> 
+          <%= link_to "#{article.title}", article ,  class:"article-title" %>
+        <div class="article-body">
+            <%= article.content %>
+           </div>
+         
+       </div> 
     <% end %>
         </div>
     </div>
