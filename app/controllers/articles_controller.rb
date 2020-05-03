@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class ArticlesController < ApplicationController
   before_action :set_article, only: %i[show edit update destroy vote]
   before_action :logged_in_user, except: %i[index show]
@@ -68,7 +66,7 @@ class ArticlesController < ApplicationController
       @article.liked_by current_user
     elsif current_user.liked? @article
       @article.unliked_by current_user
-     end
+    end
   end
 
   private
