@@ -109,12 +109,17 @@ header{
   display:flex;
  flex-wrap:wrap;
  margin-left:1rem;
+background:#000;
+z-index:10;
 }
 .lower-col{
 // margin:1rem;
+background:#272010;
 width:333px;
 height:300px;
+opacity: 1;
 // border:5px solid red;
+z-index:12;
 }
 .article-title:hover{
 color:#7f8c8d;
@@ -128,7 +133,7 @@ font-size: 1.5rem;
 font-weight:bold;
 border-bottom:3px solid #9a9014;
 padding-bottom: 0.1rem;
-color:#5a514c;
+color:#fff;
 text-decoration: none;
  position:relative;
 top: -28.8rem;
@@ -147,7 +152,7 @@ img{
 .article-body{
   position: relative;
    top: -18rem;
-  color:black;
+  color:#fff;
 }
 .lower-col{
   
