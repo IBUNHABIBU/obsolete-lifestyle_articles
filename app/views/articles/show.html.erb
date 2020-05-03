@@ -1,18 +1,22 @@
 <p id="notice"><%= notice %></p>
 
-<p>
+<p align="center">
   <%= @article.title %>
 </p>
-
-
-<p>
+<div class="show-div-flex">
+  <div class="imsize">
+  <p>
   <%= image_tag(@article.image) %>
 </p>
-
-<p>
+</div>
+<div class="cont-show">
+  <p>
   
   <%= @article.content %>
 </p>
+</div>
+<div class="vote-sect">
+  
 <%= link_to like_article_path(@article), class:"like-btn", method: :put , remote: :true do %>
 <div>
   <span>
@@ -34,6 +38,9 @@
 <p>Categories: <%= render @article.categories %></p>
 
 <% end %>
+</div>
+</div>
+
 
 <!--<%= link_to 'Edit', edit_article_path(@article) %> |-->
 <!--<%= link_to 'Back', articles_path %>-->

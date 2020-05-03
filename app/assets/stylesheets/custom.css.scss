@@ -165,9 +165,24 @@ img{
   list-style:none;
 }
 
-
-
-
+.imsize p img{
+  height:300px;
+  width:300px;
+}
+.show-div-flex{
+  display:flex;
+  justify-content:center;
+}
+.cont-show{
+  width:300px;
+  background:#f8f8f8;
+  font-size:2rem;
+  padding:2rem;
+}
+.vote-sect{
+  padding:3rem;
+  background:#f8f8f8;
+}
 
 
 
