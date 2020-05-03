@@ -1,0 +1,58 @@
+/*
+Error: File to import not found or unreadable: bootstrap-sprockets.
+        on line 1 of /home/ec2-user/environment/lifestyle_articles/app/assets/stylesheets/custom.css.scss
+
+1: @import "bootstrap-sprockets";
+2: @import "bootstrap";
+3: 
+4: header{
+5:   background-color:#fff;
+6: }
+
+Backtrace:
+/home/ec2-user/environment/lifestyle_articles/app/assets/stylesheets/custom.css.scss:1
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/plugin.rb:82:in `update_stylesheets'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/sass-3.7.4/bin/scss:13:in `<top (required)>'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/bin/scss:23:in `load'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/bin/scss:23:in `<main>'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `eval'
+/home/ec2-user/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bootstrap-sprockets.\A         on line 1 of /home/ec2-user/environment/lifestyle_articles/app/assets/stylesheets/custom.css.scss\A \A 1: @import \"bootstrap-sprockets\";\A 2: @import \"bootstrap\";\A 3: \A 4: header{\A 5:   background-color:#fff;\A 6: }"; }
