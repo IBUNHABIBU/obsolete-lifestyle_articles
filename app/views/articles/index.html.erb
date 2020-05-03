@@ -1,23 +1,21 @@
 <div class="all-cat">
-    <div class="upper-part">
-        
+    <div class="upper-part"
     </div>
+    <div class="upper-part">
     <div class="lower-part">
-        <% @articles.each do |article| %>
-      
-      
+         <% @articles.each do |article| %>
+        <div class="lower-col">
         <%= link_to "#{article.title}", article ,  class:"article-title" %>
-       <div class="article-body">
-           
-        <%= article.content %>
-       </div>
+           <div class="article-body">
+            <%= article.content %>
+           </div>
         <div class="article-img">
              <%= image_tag(article.image) %>
         </div>
-        
+         </div> 
     <% end %>
+        </div>
     </div>
-     
 </div>
    
  

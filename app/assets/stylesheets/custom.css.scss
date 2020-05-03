@@ -99,11 +99,60 @@ header{
 .dropdown:hover .dropbtn {
   background-color: #f1f1f1;
 }
+.all-cat{
+  display:flex;
+}
+.upper-part{
+  // background: #000;
+  color:#fff;
+}
+.lower-part{
+  display:flex;
+ flex-wrap:wrap;
+ background:#170f08;
+// opacity: 0.7;
+}
+.lower-col{
+  background:#151007;
+ opacity: 0.7;
+margin:1rem;
+width:300px;
+height:300px;
 
-
-
-
-
+border:5px solid red;
+}
+.article-title:hover{
+  
+text-decoration: none;
+}
+.lower-col a{
+  color:#fff;
+}
+.article-title{
+font-size: 1.5rem;
+font-weight:bold;
+border-bottom:3px solid #9a9014;
+padding-bottom: 0.3rem;
+color:#5a514c;
+text-decoration: none;
+}
+img{
+  width:100%;
+  max-height:100px;
+}
+.body-flex{
+  display:flex;
+  // align-items:center;
+}
+.article-body{
+  position: relative;
+  top:8rem;
+  align-items:center;
+  border:2px solid green;
+}
+.lower-col{
+  
+}
 
 
 
