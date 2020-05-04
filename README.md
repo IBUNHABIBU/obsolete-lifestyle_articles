@@ -20,7 +20,7 @@ Use the following command "$ rails s " to start the rails server then visit: htt
 
 
 ## Live demo
-https://sm-social-app.herokuapp.com/
+https://article-blog-t.herokuapp.com/
 
 # Entity Relationship Diagram (ERD)
 

@@ -26,7 +26,7 @@
   
   <li class="auth-li">
 <div class="dropdown">
-  <button class="dropbtn">All</button>
+  <span class="dropbtn"><%= link_to "All" ,categories_path , class:"auth-link" %></span>
   <div class="dropdown-content">
     <%= link_to "Category", categories_path, class:"auth-link" %>
     <%= link_to "Article", articles_path, class:"auth-link" %>
@@ -36,7 +36,7 @@
   
 <li class="auth-li">
 <div class="dropdown">
-  <button class="dropbtn">Create</button>
+   <span class="dropbtn"><%= link_to "Create" ,categories_path , class:"auth-link" %></span>
   <div class="dropdown-content">
     <%= link_to "Category", new_category_path, class:"auth-link" %>
     <%= link_to "Article", new_article_path, class:"auth-link" %>

@@ -152,8 +152,8 @@ GEM
     responders (3.0.0)
       actionpack (>= 5.0)
       railties (>= 5.0)
-    rspec-core (3.9.1)
-      rspec-support (~> 3.9.1)
+    rspec-core (3.9.2)
+      rspec-support (~> 3.9.3)
     rspec-expectations (3.9.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
@@ -168,7 +168,7 @@ GEM
       rspec-expectations (~> 3.9)
       rspec-mocks (~> 3.9)
       rspec-support (~> 3.9)
-    rspec-support (3.9.2)
+    rspec-support (3.9.3)
     ruby_dep (1.5.0)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -226,9 +226,10 @@ PLATFORMS
 
 DEPENDENCIES
   acts_as_votable
+  autoprefixer-rails
   awesome_print
   bootsnap (>= 1.1.0)
-  bootstrap-sass (~> 3.4.1)
+  bootstrap-sass
   byebug
   capybara
   coffee-rails (~> 4.2)

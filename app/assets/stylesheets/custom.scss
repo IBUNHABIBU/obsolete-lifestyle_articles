@@ -1,6 +1,6 @@
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
 header{
   background-color:#fff;
 }
@@ -15,7 +15,7 @@ header{
 .category-list
 {
   width:50%;
-   margin-left:22rem;
+  margin-left:22rem;
 }
 .logo-dot{
   color:#f76107;
@@ -167,14 +167,16 @@ img{
 
 .imsize p img{
   height:300px;
-  width:300px;
+   width:300px;
+  
 }
 .show-div-flex{
   display:flex;
+  flex-direction:column;
   justify-content:center;
 }
 .cont-show{
-  width:300px;
+  // width:300px;
   background:#f8f8f8;
   font-size:2rem;
   padding:2rem;
@@ -184,7 +186,10 @@ img{
   background:#f8f8f8;
 }
 
-
+.back-t{
+  height:300px;
+  background-image:url("assets/images/ERD_articles.png");
+}
 
 
 

@@ -1,12 +1,12 @@
 <p id="notice"><%= notice %></p>
 
-<p align="center">
+<h1 align="center">
   <%= @article.title %>
-</p>
+</h1>
 <div class="show-div-flex">
-  <div class="imsize">
+  <div class="imsize " align="center">
   <p>
-  <%= image_tag(@article.image) %>
+  <% image_tag(@article.image) %>
 </p>
 </div>
 <div class="cont-show">
