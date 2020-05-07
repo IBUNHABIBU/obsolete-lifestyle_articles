@@ -16,13 +16,13 @@
 </li>
 
 <li><small><%= pluralize(category.articles.count, "article") %></small></li>
+<%= link_to 'Delete', category, method: :delete, data: { confirm: 'Are you sure?' } %>
 
 </div>
 
 </div>
 
 </ul>
-
 <% end %>
 
 
