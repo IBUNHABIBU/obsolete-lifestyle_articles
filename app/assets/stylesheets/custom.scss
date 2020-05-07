@@ -18,7 +18,13 @@ header{
   margin-left:22rem;
 }
 .logo-dot{
-  color:#f76107;
+  // color:#f76107;
+  height: 10px;
+  width: 10px;
+  background-color: #f76107;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 0.5rem;
 }
 #home-btn{
   color:#f76107;
