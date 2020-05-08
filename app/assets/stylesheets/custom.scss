@@ -46,6 +46,8 @@ header{
   text-transform:uppercase;
   color:#787980;
 }
+
+// styling the login page
 .authentication{
   float:right;
 }
@@ -66,7 +68,8 @@ header{
 .auth-div{
   margin-right:5rem;
  }
-
+ 
+// styling the create button
 .dropbtn {
   background-color:White;
   color: #cfcecc;
@@ -106,6 +109,8 @@ header{
 .dropdown:hover .dropbtn {
   background-color: #f1f1f1;
 }
+
+// styling the index page as home page
 .all-cat{
   display:flex;
 }
@@ -135,7 +140,7 @@ text-decoration: none;
 .lower-col a{
  
 }
-.article-t{
+.category-t{
 font-size: 1.5rem;
 font-weight:bold;
 border-bottom:3px solid #9a9014;
@@ -161,11 +166,17 @@ img{
    top: -18rem;
   color:#fff;
 }
+
+.article-body a{
+ font-size: 2rem;
+  color:#fff;
+}
+
 .lower-col{
   
 }
 
-.article-title{
+.category-t{
   list-style:none;
 }
 .listing{
@@ -204,10 +215,25 @@ img{
   height:5rem;
 }
 
-
-
-
-
+.cat-show-cont .cat-col{
+  display:flex;
+  flex-wrap:wrap;
+  width:100%;
+  height:300px;
+  opacity: 1;
+  // border:5px solid red;
+  z-index:12;
+}
+.cat-show-cont .cat-col .lower-col {
+  margin:12px;
+  border:2px solid white;
+  width:600px;
+  height:300px;
+  background:blue;
+}
+.cat-show-cont .cat-col .lower-col img {
+  width:300px;
+}
 
 
 

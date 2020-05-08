@@ -1,17 +1,7 @@
 
-<h1 align="center"><%= "Category: " + @category.name %></h1>
+<div class="cat-show-cont">
+  <div class="cat-col">
+    <%= render 'articles/article', obj: @category_articles %>
+  </div>
+</div>
 
-<%= render 'articles/article', obj: @category_articles %>
-
-<p>
-  <span>Name:</span>
-  <%= @category.name %>
-</p>
-
-<p>
-  <span>Priority:</span>
-  <%= @category.priority %>
-</p>
-
-<%= link_to 'Edit', edit_category_path(@category) %> |
-<%= link_to 'Back', categories_path %>

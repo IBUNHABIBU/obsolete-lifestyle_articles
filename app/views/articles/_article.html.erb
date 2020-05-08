@@ -1,11 +1,12 @@
 <% obj.each do |article| %>
 <div class="lower-col">
+      
         <div class="article-img imsize">
              <%= image_tag(article.image) %>
         </div>
-             <% if article.categories.any? %>
-                <p>Categories: <%= render article.categories %></p>
-              <% end %>
+            <% if article.categories.any? %>
+                <p><%= render article.categories %></p>
+        <% end %>
         <div class="article-body">
             <%= link_to article.title , article_path(article) %>
         </div>
