@@ -1,7 +1,6 @@
 FactoryBot.define do
   factory :article do
-    title { 'MyString' }
-    content { 'MyString' }
-    user { nil }
+    title { 'Soundation' }
+    content { 'Awesome instrumental maker' }
   end
 end
