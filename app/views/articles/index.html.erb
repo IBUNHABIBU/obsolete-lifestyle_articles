@@ -4,16 +4,16 @@
     <div class="upper-part">
     <div class="lower-part">
          <% @articles.each do |article| %>
+         
         <div class="lower-col">
         <div class="article-img imsize">
              <%= image_tag(article.image) %>
         </div>
-    <%= link_to "#{article.title}", article ,  class:"article-t" %>
+            <%= link_to "#{article.title}", article ,  class:"article-t" %>
         <div class="article-body">
             <%= article.content %>
         </div>
        </div> 
-       <%= article.category.name %>
     <% end %>
         </div>
     </div>
