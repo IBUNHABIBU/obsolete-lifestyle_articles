@@ -2,11 +2,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 // header styling 
+html{
+  height:100%;
+}
 header{
   background-color:#fff;
 }
 body{
   border: 0.7rem solid #4e443f;
+  overflow-x:hidden;
+  height:100%;
 }
 .navlogo{
   position:absolute;
@@ -306,6 +311,7 @@ z-index:12;
 footer{
 background-color: #4e443f;
 height:50px;
+margin-top:auto;
    }
    .footer-icons {
     display: flex;
@@ -331,10 +337,10 @@ height:50px;
     border-radius: 50%;
     box-sizing: border-box;
 }
-
 .footer-icons a:hover {
     background: transparent;
     border: 2px solid #333;
+    color:#fedac3;
 }
 footer .foot h3{
   color:white;
