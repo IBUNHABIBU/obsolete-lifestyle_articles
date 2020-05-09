@@ -1,14 +1,25 @@
 <div class="all-cat">
-    <div class="upper-part">
-       <%= @most_rated_articles %>
-         <%= image_tag "weather.jpg", class:"front-img" %>
-    </div>
-    <div class="upper-part">
-
-        <div class="lower-part">
-           <%= render 'article', obj:@recent_articles %>
+    <div class="first-part">
+        <div class="most-rated">
+             <% @most_rated_articles.each do |a| %>
+             <%= a.title %>
+             <%= a.content %>
+             <div class="img-size">
+             <%= image_tag(a.image) %>
+             </div>
+             <% end %>
         </div>
+      <div class="top-image">
+          <%= image_tag "weather.jpg", class:"front-img" %>
+      </div>
+         
     </div>
+    <!--<div class="upper-part">-->
+
+    <!--    <div class="lower-part">-->
+    <!--       <%= render 'article', obj:@recent_articles %>-->
+    <!--    </div>-->
+    <!--</div>-->
 </div>
    
  

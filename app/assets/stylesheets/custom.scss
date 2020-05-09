@@ -5,6 +5,9 @@
 header{
   background-color:#fff;
 }
+body{
+  border: 0.7rem solid black;
+}
 .navlogo{
   position:absolute;
   padding:3px;
@@ -116,8 +119,9 @@ header{
   display:flex;
   flex-direction:column;
 }
-.upper-part{
+.first-part{
   color:#fff;
+  display:flex;
 }
 .lower-part{
   display:flex;
@@ -266,12 +270,55 @@ z-index:12;
   position:relative;
   top:-15rem;
  }
+.front-img{
+  width:400px;
+  height:400px;
+  margin-top: 2.1rem;
+}
 
+.most_rated {
+  color:black;
+  width:600px;
+  height:400px;
+}
+.img-size{
+  width:919px;
+  height:400px;
+  margin:1px;
+}
 
+// ********************** Styling the footer **************************
 
+footer{
+background-color: black;
+   }
+   .footer-icons {
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    justify-content: center;
+     margin: auto;
+    // margin-bottom: 21px
+}
+.footer-icons li {
+     margin: 8px;
+}
+.footer-icons a {
+    font-size: 18px;
+    display: grid;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: #333;
+    place-content: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
 
-
-
+.footer-icons a:hover {
+    background: transparent;
+    border: 2px solid #333;
+}
 
 
 
