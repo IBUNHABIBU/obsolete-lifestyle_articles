@@ -13,6 +13,9 @@ Building this project is very important  because:
 * RSpec 
 ## Description 
  In this project user will be able to write articles of different categories with pictures and voting.
+ *The most voted article will be in the front page
+ * All categories have been arranged in order of priority 
+ * And the articles are arranged according to most recent.
 ## Usage
 Clone the repository to your machine and cd into the directory
 
@@ -20,7 +23,9 @@ Use the following command "$ rails s " to start the rails server then visit: htt
 
 
 ## Live demo
-https://article-blog-t.herokuapp.com/
+https://lifestylearticle.herokuapp.com/
+
+## link to  [Video presentation](https://www.google.com "Google's Homepage")
 
 # Entity Relationship Diagram (ERD)
 
