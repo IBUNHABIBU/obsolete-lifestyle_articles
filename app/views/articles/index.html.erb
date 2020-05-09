@@ -2,10 +2,15 @@
     <div class="first-part">
         <div class="most-rated">
              <% @most_rated_articles.each do |a| %>
-             <%= a.title %>
-             <%= a.content %>
+             
              <div class="img-size">
              <%= image_tag(a.image) %>
+             </div>
+             <div class="rated_title">
+                 <%=  link_to "#{a.title}", article_path(a) %>
+             </div>
+             <div class="rated_content">
+                  <%= a.content %>
              </div>
              <% end %>
         </div>
