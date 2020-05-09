@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Article, type: :model do
-   let(:article) { build(:article) }
+  let(:article) { build(:article) }
   context 'Creating Article' do
     it 'should give a article title' do
       article.title = 'Soundation'

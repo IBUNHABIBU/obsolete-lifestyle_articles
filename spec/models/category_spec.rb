@@ -7,7 +7,6 @@ RSpec.describe Category, type: :model do
       category.name = 'Animal'
       expect(category.name).to eq('Animal')
     end
-    
   end
   context 'Category validation' do
     it { should validate_presence_of(:name) }
