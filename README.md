@@ -22,8 +22,7 @@ Clone the repository to your machine and cd into the directory
 Use the following command "$ rails s " to start the rails server then visit: http://localhost:3000 to use the app
 
 
-## Live demo
-https://lifestylearticle.herokuapp.com/
+## [Live demo](https://www.google.com "Of the project") of the project
 
 ## link to  [Video presentation](https://www.google.com "Google's Homepage")
 
