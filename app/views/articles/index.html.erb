@@ -1,11 +1,12 @@
 <div class="all-cat">
     <div class="upper-part">
-        
+       <%= @most_rated_articles %>
+         <%= image_tag "weather.jpg", class:"front-img" %>
     </div>
     <div class="upper-part">
 
         <div class="lower-part">
-           <%= render 'article', obj:@articles %>
+           <%= render 'article', obj:@recent_articles %>
         </div>
     </div>
 </div>

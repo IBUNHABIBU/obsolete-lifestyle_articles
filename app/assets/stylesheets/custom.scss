@@ -114,6 +114,7 @@ header{
 // styling the index page as home page
 .all-cat{
   display:flex;
+  flex-direction:column;
 }
 .upper-part{
   color:#fff;

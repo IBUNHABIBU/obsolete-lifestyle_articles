@@ -1,0 +1,9 @@
+<% obj.each do |article| %>
+            <%= image_tag(article.image.first) %>
+            <% if article.categories.any? %>
+                <p><%= render article.categories.first %></p>
+            <% end %>
+            <%= link_to article.title.first , article_path(article) %>
+            <%= article.content.first %>
+
+<% end %>

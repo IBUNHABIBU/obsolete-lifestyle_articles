@@ -8,7 +8,8 @@
   <%= link_to "Home" , root_path, class:"cat-link-names", id:"home-btn" %>
 </li>
 </ul>
-<% Category.all.each do |category| %>
+
+<% Category.priority_cat.each do |category| %>
 
 <ul class="category-ul">
 <li class="category-li">
