@@ -6,7 +6,7 @@ header{
   background-color:#fff;
 }
 body{
-  border: 0.7rem solid black;
+  border: 0.7rem solid #4e443f;
 }
 .navlogo{
   position:absolute;
@@ -290,15 +290,18 @@ z-index:12;
 // ********************** Styling the footer **************************
 
 footer{
-background-color: black;
+background-color: #4e443f;
+height:50px;
    }
    .footer-icons {
     display: flex;
     flex-wrap: wrap;
     text-transform: uppercase;
-    justify-content: center;
+    justify-content: flex-end;
      margin: auto;
-    // margin-bottom: 21px
+    margin-right: 11rem;
+    position: relative;
+    bottom:2.8rem;
 }
 .footer-icons li {
      margin: 8px;
@@ -308,8 +311,8 @@ background-color: black;
     display: grid;
     height: 40px;
     width: 40px;
-    color: white;
-    background-color: #333;
+    color: #5b453a;
+    background-color: #fe6001;
     place-content: center;
     border-radius: 50%;
     box-sizing: border-box;
@@ -319,8 +322,16 @@ background-color: black;
     background: transparent;
     border: 2px solid #333;
 }
-
-
+footer .foot h3{
+  color:white;
+  margin-left:2rem;
+}
+.foot p {
+  color:white;
+  position:relative;
+  top:2rem;
+  left:39rem;
+}
 
 
 
