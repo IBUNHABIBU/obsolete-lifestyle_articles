@@ -24,7 +24,7 @@ Use the following command "$ rails s " to start the rails server then visit: htt
 
 ## [Live demo](https://lifestylearticle.herokuapp.com/ "Of the project") of the project
 
-## link to  [Video presentation](https://www.google.com "Google's Homepage")
+## link to  [Video presentation](https://www.loom.com/share/0b8781bc9e624ba6888837e5adec5c3a "Loom")
 
 # Entity Relationship Diagram (ERD)
 
