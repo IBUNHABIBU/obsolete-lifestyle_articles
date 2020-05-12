@@ -39,13 +39,13 @@ Building this project is very important  because:
 
 ## Usage
 Clone this repository and run the following commands \
- `$bundle install --without-production` \ 
+ `$bundle install --without-production` 
  
- `$sudo service postgresql start` \ 
+ `$sudo service postgresql start` 
  
- `$rails db:migrate` \ 
+ `$rails db:migrate` 
  
- `$rails s ` \ 
+ `$rails s ` 
  
 then open http://localhost:3000/
 
