@@ -52,10 +52,11 @@ body{
 .category-li{
   display:inline-block;
 }
+
 .cat-link-names{
   text-align:center;
   text-decoration:none;
-  font-size:2rem;
+  font-size:1.7rem;
   text-transform:uppercase;
   color:#787980;
 }
@@ -67,9 +68,18 @@ body{
 .auth-link{
   text-align:center;
   text-decoration:none;
-  font-size:2rem;
+  font-size:1.7rem;
   text-transform:uppercase;
   color:#787980;
+  display:flex;
+  align-items :baseline;
+}
+
+.vertical-line{
+  border-right: 2.5px solid #787980;
+  padding-right: 1.2rem;
+  margin-right: 1rem;
+  height:2rem;
 }
 .auth-li{
   list-style:none;
@@ -77,6 +87,8 @@ body{
   float:left;
   margin-top:18px;
   margin-left:1rem;
+  display:flex;
+  align-items :baseline;
 }
 .auth-div{
   margin-right:5rem;
@@ -152,9 +164,6 @@ z-index:12;
 color:#7f8c8d;
 text-decoration: none;
 }
-.lower-col a{
- 
-}
 .category-t{
 font-size: 1.5rem;
 font-weight:bold;
@@ -188,9 +197,6 @@ img{
   margin-left:1rem;
 }
 
-.lower-col{
-  
-}
 
 .category-t{
   list-style:none;
@@ -222,12 +228,6 @@ img{
 .back-t{
   height:300px;
   background-image:url("assets/images/ERD_articles.png");
-}
-.vertical-line{
-  border-right: 2.5px solid #787980;
-  padding-right: 1.2rem;
-  margin-right: 1rem;
-  height:5rem;
 }
  .cat-show-cont {
 
