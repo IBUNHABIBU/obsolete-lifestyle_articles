@@ -39,10 +39,14 @@ Building this project is very important  because:
 
 ## Usage
 Clone this repository and run the following commands \
- `$bundle install --without-production` \ \
- `$sudo service postgresql start` \ \
- `$rails db:migrate` \ \
- `$rails s ` \ \
+ `$bundle install --without-production` \ 
+ 
+ `$sudo service postgresql start` \ 
+ 
+ `$rails db:migrate` \ 
+ 
+ `$rails s ` \ 
+ 
 then open http://localhost:3000/
 
 ## [Live demo](https://lifestylearticle.herokuapp.com/ "Of the project") of the project
