@@ -16,11 +16,14 @@ Building this project is very important  because:
  *The most voted article will be in the front page
  * All categories have been arranged in order of priority 
  * And the articles are arranged according to most recent.
+ 
 ## Usage
-Clone the repository to your machine and cd into the directory
-
-Use the following command "$ rails s " to start the rails server then visit: http://localhost:3000 to use the app
-
+-[Clone this repository]
+-['< $bundle install --without-production>']
+-['< $sudo service postgresql start>']
+-['< $rails db:migrate>']
+-['< $rails s >']
+-[then open http://localhost:3000/]
 
 ## [Live demo](https://lifestylearticle.herokuapp.com/ "Of the project") of the project
 
