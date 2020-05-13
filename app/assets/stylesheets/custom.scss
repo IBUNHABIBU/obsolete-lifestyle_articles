@@ -74,7 +74,13 @@ body{
   display:flex;
   align-items :baseline;
 }
-
+.form-horizontal .form-group {
+    margin-left: 19rem;
+}
+.control-label .col-sm-1 {
+   padding:0;
+   margin:0;
+}
 .vertical-line{
   border-right: 2.5px solid #787980;
   padding-right: 1.2rem;
