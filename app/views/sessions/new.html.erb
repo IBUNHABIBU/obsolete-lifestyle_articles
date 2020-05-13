@@ -1,21 +1,4 @@
 
-<!--<%= form_for(:session, url: login_path, class:"form-horizontal", role: "form" ) do |f| %>-->
-<!--      <div class="form-group">-->
-<!--      <div class="control-label col-sm-1">-->
-<!--            <%= f.label :name %>-->
-<!--      </div>-->
-<!--      <div class="col-sm-4">-->
-<!--            <%= f.text_field :name, class: 'form-control' %>-->
-<!--      </div>-->
-<!--      </div>-->
-<!--      <div class="form-group">-->
-<!--      <div class="col-sm-offset-2 col-sm-10">-->
-<!--      <%= f.submit "Log in", class: "btn btn-primary" %>-->
-<!--      </div>-->
-<!--      </div>-->
-<!--<% end %>-->
-
-
 <%= form_for(:session, url: login_path, :html => {class: "form-horizontal", role: "form"}) do |f| %>
 
 <div class="form-group">
@@ -45,5 +28,5 @@
 
 <% end %>
 <div align="center">
-    New user? <%= link_to 'Register' , new_user_path %>
+    <h4>New user? <%= link_to 'Register' , new_user_path %></h4>
 </div>
