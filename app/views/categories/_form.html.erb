@@ -1,48 +1,48 @@
 
 <h1 align="center">Create new category</h1>
 
-
 <%= form_for(@category, :html => {class: "form-horizontal", role: "form"}) do |f| %>
 
 <%= render 'shared/error_messages', object: @category %>
-<div class="form-group">
 
-<div class="control-label col-sm-2">
+    <div class="form-group">
 
-<%= f.label :name %>
+        <div class="control-label col-sm-2">
+        
+        <%= f.label :name %>
+        
+        </div>
 
-</div>
+        <div class="col-sm-6">
+        
+        <%= f.text_field :name, class: "form-control", autofocus: true %>
+        
+        </div>
 
-<div class="col-sm-8">
+    </div>
 
-<%= f.text_field :name, class: "form-control", placeholder: "Category name", autofocus: true %>
+    <div class="form-group">
 
-</div>
+        <div class="control-label col-sm-2">
+        
+        <%= f.label :priority %>
+        
+        </div>
 
-</div>
-<div class="form-group">
+        <div class="col-sm-6">
+        
+        <%= f.text_field :priority, class: "form-control", autofocus: true %>
+        
+        </div>
 
-<div class="control-label col-sm-2">
+    </div>
+       <div class="form-group">
 
-<%= f.label :Priority %>
+        <div class="col-sm-offset-2 col-sm-10">
+        
+        <%= f.submit class: 'btn btn-primary btn-lg col-sm-7' %>
+        
+        </div>
 
-</div>
-
-<div class="col-sm-8">
-
-<%= f.text_field :priority, class: "form-control", placeholder: "Category name", autofocus: true %>
-
-</div>
-
-</div>
-<div class="form-group">
-
-<div class="col-sm-offset-2 col-sm-10">
-
-<%= f.submit class: 'btn btn-primary btn-lg' %>
-
-</div>
-
-</div>
-
+       </div>
 <% end %>
