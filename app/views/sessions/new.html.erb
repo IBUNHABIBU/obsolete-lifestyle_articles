@@ -1,20 +1,49 @@
-<%= form_for(:session, url: login_path, class:"form-horizontal" ) do |f| %>
-      <div class="form-group">
 
-<div class="control-label col-sm-1">
-      <%= f.label :name %>
+<!--<%= form_for(:session, url: login_path, class:"form-horizontal", role: "form" ) do |f| %>-->
+<!--      <div class="form-group">-->
+<!--      <div class="control-label col-sm-1">-->
+<!--            <%= f.label :name %>-->
+<!--      </div>-->
+<!--      <div class="col-sm-4">-->
+<!--            <%= f.text_field :name, class: 'form-control' %>-->
+<!--      </div>-->
+<!--      </div>-->
+<!--      <div class="form-group">-->
+<!--      <div class="col-sm-offset-2 col-sm-10">-->
+<!--      <%= f.submit "Log in", class: "btn btn-primary" %>-->
+<!--      </div>-->
+<!--      </div>-->
+<!--<% end %>-->
+
+
+<%= form_for(:session, url: login_path, :html => {class: "form-horizontal", role: "form"}) do |f| %>
+
+<div class="form-group">
+
+<div class="control-label col-sm-2">
+
+<%= f.label :name %>
+
 </div>
-<div class="col-sm-4">
-      <%= f.text_field :name, class: 'form-control' %>
+
+<div class="col-sm-6">
+
+<%= f.text_field :name, class: "form-control", placeholder: "User name", autofocus: true %>
+
 </div>
+
 </div>
-      
 <div class="form-group">
 
 <div class="col-sm-offset-2 col-sm-10">
 
-      <%= f.submit "Log in", class: "btn btn-primary" %>
-      </div>
-      </div>
-    <% end %>
-    <p>New user? <%= link_to 'Register' , new_user_path %></p>
+<%= f.submit "login", class: 'btn btn-primary btn-lg col-sm-7' %>
+
+</div>
+
+</div>
+
+<% end %>
+<div align="center">
+    New user? <%= link_to 'Register' , new_user_path %>
+</div>
