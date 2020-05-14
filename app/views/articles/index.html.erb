@@ -3,23 +3,22 @@
         <div class="most-rated">
              <% @most_rated_articles.each do |article| %>
              <div class="top-image">
-         <div class="bg-img" style="background-image: url(<%= rails_blob_url(article.image) %>)"></div>
+              <div class="bg-img" style="background-image: url(<%= rails_blob_url(article.image) %>)"></div>
 
-          </div>
+             </div>
              <div class="rated_title">
                  <%=  link_to "#{article.title}", article_path(article) %>
              </div>
              <div class="rated_content">
                   <%= article.content %>
              </div>
-             
              <% end %>
         </div>
-      
-         
+        <div class="weather-image">
+          <%= image_tag("weather.jpg", :alt => "rss feed") %>
+        </div>
     </div>
     <div class="upper-part">
-
         <div class="lower-part">
            <%= render 'article', obj:@recent_articles %>
         </div>
