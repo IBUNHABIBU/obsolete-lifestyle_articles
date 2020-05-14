@@ -158,15 +158,10 @@ body{
 z-index:10;
 }
 .lower-col{
-// background:#272010;
 width:330px;
 height:300px;
 opacity: 1;
 z-index:12;
-// background-image:url('<%= url_for(@recent_articles.image) %>');
-//   background-position:center;
-//   background-repeat:no-repeat;
-//   background-size:cover;
 }
 
 
@@ -185,10 +180,6 @@ text-decoration: none;
 top: -28.8rem;
 left: 1.5rem;
 }
-img{
-    width: 100%;
-    height: 100%;
-}
 
 
 // ***************************Styling background*******************************************
@@ -202,10 +193,39 @@ img{
 .bg-img{
     width: 100%;
     height: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.imsize p img{
+  height:300px;
+   width:300px;
   
 }
 
+.front-img{
+  width:400px;
+  height:400px;
+}
+.top-image{
+width:400px;
+height:300px;
+  background-image:url(weather.jpg);
+}
 
+.most_rated {
+   width:600px;
+ height:400px;
+ 
+}
+.img-size{
+   width:919px;
+   height:400px;
+   margin-left:1px;
+}
 // *************************************End of styling background*****************************
 .body-flex{
  
@@ -230,11 +250,6 @@ img{
   list-style:none;
 }
 
-.imsize p img{
-  height:300px;
-   width:300px;
-  
-}
 .show-div-flex{
   display:flex;
   flex-direction:column;
@@ -304,29 +319,6 @@ z-index:12;
   position:relative;
   top:-15rem;
  }
-.front-img{
-  width:400px;
-  height:400px;
-}
-.top-image{
-width:400px;
-height:300px;
-  background-image:url(weather.jpg);
-}
-.most_rated {
-   width:600px;
- height:400px;
- 
-background-image:url('<%= url_for(@most_rated_articles.image) %>');
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size:cover;
-}
-.img-size{
-   width:919px;
-   height:400px;
-   margin-left:1px;
-}
 
 .rated_title a{
   color:#f45e00;
