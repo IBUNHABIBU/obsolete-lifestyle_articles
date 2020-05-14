@@ -1,8 +1,8 @@
 <% obj.each do |article| %>
 <div class="lower-col">
-        <!--<div class="article-img imsize">-->
-       
-        <!--</div>-->
+  <div class="article-img imsize">
+   <div class="bg-img" style="background-image: url(<%= rails_blob_url(article.image) %>)"></div>
+        </div>
        
         <div class="show-art-cont">
             <% if article.categories.any? %>

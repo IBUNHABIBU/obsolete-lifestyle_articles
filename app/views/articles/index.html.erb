@@ -1,20 +1,21 @@
 <div class="all-cat">
     <div class="first-part">
         <div class="most-rated">
-             <% @most_rated_articles.each do |a| %>
-             
-            
+             <% @most_rated_articles.each do |article| %>
+             <div class="top-image">
+         <div class="bg-img" style="background-image: url(<%= rails_blob_url(article.image) %>)"></div>
+
+      </div>
              <div class="rated_title">
-                 <%=  link_to "#{a.title}", article_path(a) %>
+                 <%=  link_to "#{article.title}", article_path(article) %>
              </div>
              <div class="rated_content">
-                  <%= a.content %>
+                  <%= article.content %>
              </div>
+             
              <% end %>
         </div>
-      <div class="top-image">
-        <p>weather</p>
-      </div>
+      
          
     </div>
     <div class="upper-part">

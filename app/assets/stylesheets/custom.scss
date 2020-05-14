@@ -158,15 +158,15 @@ body{
 z-index:10;
 }
 .lower-col{
-background:#272010;
+// background:#272010;
 width:330px;
 height:300px;
 opacity: 1;
 z-index:12;
-background-image:url('<%= url_for(@recent_articles.image) %>');
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size:cover;
+// background-image:url('<%= url_for(@recent_articles.image) %>');
+//   background-position:center;
+//   background-repeat:no-repeat;
+//   background-size:cover;
 }
 
 
@@ -189,9 +189,24 @@ img{
     width: 100%;
     height: 100%;
 }
+
+
+// ***************************Styling background*******************************************
 .imsize{
   height:300px;
+   position: relative;
+    width: 100%;
+    height: 250px;
+    background: grey;
 }
+.bg-img{
+    width: 100%;
+    height: 100%;
+  
+}
+
+
+// *************************************End of styling background*****************************
 .body-flex{
  
 }
