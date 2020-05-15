@@ -20,7 +20,7 @@
         <div>
           <span>
             <p>
-              <%= button_to "Unlike", article_like_path(@article, @current_like), method: :delete %>
+              <%= button_to "Unlike", article_like_path(@article, @current_like), class:"btn btn-warning", method: :delete %>
             </p>
           </span>
         </div>
@@ -28,7 +28,7 @@
         <div>
           <span>
             <p>
-              <%= button_to "like" ,article_likes_path(@article) %>
+              <%= button_to "like" ,article_likes_path(@article), class:"btn btn-primary" %>
             </p>
           </span>
         </div>
@@ -47,7 +47,7 @@
 
 <% end %>
 
-<%= link_to 'Delet this article', article_path(@article), class:"btn btn-danger", method: :delete, data: { confirm: 'Are you sure?' } %>
+<%= link_to 'Delete this article', article_path(@article), class:"btn btn-danger", method: :delete, data: { confirm: 'Are you sure?' } %>
 
 </div>
 </div>
