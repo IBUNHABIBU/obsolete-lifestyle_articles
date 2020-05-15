@@ -8,12 +8,17 @@ class ArticlesController < ApplicationController
   def index
     @articles = Article.all
     @recent_articles = Article.recent
-    @most_rated_articles = Article.most_rated
+    @most_rated_articles = Article.all
   end
 
   # GET /articles/1
   # GET /articles/1.json
-  def show; end
+  def show
+    @likers = @article.likers 
+    if current_user 
+      @current_like = current_user.likes.find_by(article_id: @article.id)
+    end
+  end
 
   # GET /articles/new
   def new

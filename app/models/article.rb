@@ -5,7 +5,9 @@ class Article < ApplicationRecord
   has_one_attached :image
   has_many :article_categories
   has_many :categories, through: :article_categories
-  acts_as_votable
+  has_many :likes, dependent: :destroy
+  has_many :likers, through: :likes, source: :user
+  # acts_as_votable
   scope :recent, -> { order('created_at DESC').limit(4) }
-  scope :most_rated, -> { order('cached_votes_up DESC').limit(1) }
+  #scope :most_rated, -> { order('cached_votes_up DESC').limit(1) }
 end
