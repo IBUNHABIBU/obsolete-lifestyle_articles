@@ -61,7 +61,13 @@ body{
   color:#787980;
 }
 
-// styling the login page
+// ******************************styling the login page**********************************
+.login{
+  height:84%;
+}
+.register{
+  height:80%;
+}
 .authentication{
   float:right;
 }
@@ -351,8 +357,9 @@ z-index:12;
 
 footer{
 background-color: #4e443f;
-height:50px;
+height:60px;
 margin-top:auto;
+padding-bottom:1rem
    }
    .footer-icons {
     display: flex;

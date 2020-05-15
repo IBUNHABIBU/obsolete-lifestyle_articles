@@ -7,6 +7,7 @@ class SessionsController < ApplicationController
       log_in user
       redirect_to articles_path
     else
+      flash.now[:danger] = 'User not present! Please register'
       render 'new'
     end
   end
