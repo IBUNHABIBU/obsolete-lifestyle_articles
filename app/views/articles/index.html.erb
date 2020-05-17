@@ -5,14 +5,14 @@
              <div class="top-image">
                <div class="color-overlay"></div>
               <div class="bg-img" style="background: url(<%= rails_blob_url(article.image) %>)"></div>
-               
-             </div>
-             <div class="rated_title">
+               <div class="rated_title">
                  <%=  link_to "#{article.title}", article_path(article) %>
              </div>
              <div class="rated_content">
                   <%= article.content %>
              </div>
+             </div>
+             
              <% end %>
         </div>
         <div class="weather-image">

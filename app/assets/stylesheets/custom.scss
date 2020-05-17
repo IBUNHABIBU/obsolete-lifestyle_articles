@@ -191,11 +191,11 @@ text-decoration:none;
 
 // ***************************Styling background*******************************************
 .imsize{
-   position: relative;
-    width: 100%;
-    height: 250px;
-    background-repeat: no-repeat;
-     background-size: cover;
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background:yellow;
 }
 .bg-img{
     width: 100%;
@@ -207,7 +207,6 @@ text-decoration:none;
     width: 100%;
     height: 100%;
     position:relative;
-    bottom:6rem;
     background-repeat: no-repeat;
      background-size: cover;
 }
