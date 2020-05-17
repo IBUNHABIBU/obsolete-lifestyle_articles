@@ -1,0 +1,18 @@
+<% obj.each do |article| %>
+<div class="lower-col">
+  <div class="article-image imagesize>
+               <div class="recent-color-overlay"></div>
+   <div class="bg-recent-img" style="background-image: url(<%= rails_blob_url(article.image) %>)"></div>
+        
+        <div class="show-art-cont">
+            <% if article.categories.any? %>
+                <%= render article.categories %>
+            <% end %>
+        <div class="article-title-front">
+            <%= link_to article.title , article_path(article) %>
+        </div>
+        </div>
+       
+  </div>
+</div> 
+<% end %>
