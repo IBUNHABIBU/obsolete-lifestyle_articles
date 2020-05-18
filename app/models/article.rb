@@ -10,4 +10,5 @@ class Article < ApplicationRecord
   # acts_as_votable
   scope :recent, -> { order('created_at DESC').limit(4) }
   #scope :most_rated, -> { order('cached_votes_up DESC').limit(1) }
+  
 end
