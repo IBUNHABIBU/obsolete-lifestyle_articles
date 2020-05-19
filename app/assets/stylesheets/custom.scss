@@ -189,6 +189,7 @@ text-decoration: none;
  position:relative;
 bottom: 28.8rem;
 left: 1.5rem;
+z-index:5;
 }
 .category-t:hover{
 color:#ff1;
@@ -227,17 +228,10 @@ img{
   height:100%;
   background:#000000;
   position:absolute;
-  opacity:0.7;
+  opacity:0.5;
   background-size:cover;
  }
  
-.recent-color-overlay{
-  width:100%;
-  height:80%;
-  background:#000000;
-  position:absolute;
-  opacity:0.7;
- }
 
 
 .weather-image{
@@ -262,6 +256,15 @@ width:929px;
 // *************************************End of styling background*****************************
 
 //  **************************STYLING MOST RECENT ARTICLES *************************
+
+.recent-color-overlay{
+  width:100%;
+  height:100%;
+  background:#000000;
+  position:absolute;
+  opacity:0.5;
+  z-index:4;
+ }
 .article-title-front a{
  font-size: 2rem;
   color:#fff;
@@ -269,15 +272,14 @@ width:929px;
 text-decoration: none;
 position:relative;
 bottom:15rem;
+z-index:5;
 }
 .article-img {
   height:300px;
   background-repeat:no-repeat;
 }
 //  **************************END STYLING MOST RECENT ARTICLES *************************
-.category-t{
-  list-style:none;
-}
+
 .listing{
   list-style:none;
 }
