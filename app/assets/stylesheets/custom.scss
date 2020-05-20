@@ -316,7 +316,6 @@ z-index:5;
   width:667px;
   // background:yellow;
   height:300px;
-  // border:2px solid;
 }
 .pic{
   width:50%;
@@ -326,7 +325,7 @@ z-index:5;
 .sub{
   width:50%;
   border:2px solid;
-  background:green;
+  // background:green;
   height:300px;
   padding-left:1rem;
 }
@@ -363,7 +362,22 @@ width:8rem;
 .cat-index{
   height:70vh;
 }
+#c-title-id{
+  font-weight:bold;
+border-bottom:3px solid #9a9014;
+padding-bottom: 0.1rem;
+color:#9a9014;
+text-decoration: none;
+margin-bottom: 1.1rem;
+width:8rem;
+}
+
+
+
+
 // ***********************END OF CATEGORY SHOW PAGE*************************************
+
+
 // ********************************ARTICLE TITLE AND BODY *******************************
 .rated_title a{
   color:#d15002;
