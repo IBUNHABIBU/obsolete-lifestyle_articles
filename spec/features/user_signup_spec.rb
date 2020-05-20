@@ -4,7 +4,7 @@ RSpec.feature 'Users signup' do
     visit new_user_path
     click_link 'Register'
     fill_in 'Name', with: 'Juha'
-    click_button 'Save'
-    expect(page).to have_content('You have registerd successfully.')
+    click_button 'Create User'
+    expect(page).to have_content('You have registered successfully.')
   end
 end
