@@ -9,7 +9,7 @@
                  <%=  link_to "#{article.title}", article_path(article) %>
              </div>
              <div class="rated_content">
-                  <%= article.content %>
+                  <%= truncate(article.content, length:200, separator:' ') %>
              </div>
              </div>
              
