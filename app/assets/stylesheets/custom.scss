@@ -307,27 +307,56 @@ z-index:5;
       height:100%;
    }
 // ***********************CATEGORY SHOW PAGE********************************************
-.all-articles-in-cat{
+.flexbox{
   display:flex;
-  width:50%;
   flex-wrap:wrap;
-  height:100vh;
 }
-.show-cat-container{
+.item{
   display:flex;
-  width:100%;
-  border:2px solid;
+  width:667px;
+  // background:yellow;
   height:300px;
+  // border:2px solid;
 }
-.all-cat-image{
+.pic{
   width:50%;
+  border:2px solid black;
   height:300px;
 }
-.all-cat-image img{
-  width:100%;
+.sub{
+  width:50%;
+  border:2px solid;
+  background:green;
+  height:300px;
+  padding-left:1rem;
+}
+.cat-title{
+  // font-size: 1.5rem;
+font-weight:bold;
+border-bottom:3px solid #9a9014;
+padding-bottom: 0.1rem;
+color:#9a9014;
+text-decoration: none;
+margin-bottom: 1.1rem;
+width:8rem;
+}
+.ar-title{
+  color:black;
+  font-weight:bold;
+}
+.show-article-body{
+  font-size:2rem;
 }
 
+.item:nth-child(3){
+ display: flex;
+  flex-direction: row-reverse;
+}
 
+.item:nth-child(4){
+ display: flex;
+  flex-direction: row-reverse;
+}
 // ***********************END OF CATEGORY SHOW PAGE*************************************
 // ********************************ARTICLE TITLE AND BODY *******************************
 .rated_title a{
