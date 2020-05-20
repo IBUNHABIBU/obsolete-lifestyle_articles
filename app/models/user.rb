@@ -3,6 +3,6 @@ class User < ApplicationRecord
   has_many :articles
   # has_many :votes
   # acts_as_voter
-  has_many :likes, dependent: :destroy 
-  has_many :liked_articles, through: :likes , source: :article 
+  has_many :likes, dependent: :destroy
+  has_many :liked_articles, through: :likes, source: :article
 end

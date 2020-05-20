@@ -28,31 +28,31 @@ class CategoriesController < ApplicationController
   def create
     @category = Category.new(category_params)
 
-      if @category.save
-         flash[:success]= 'Category was successfully created.'
-         redirect_to @category
-      else
-         render :new  
-      end
+    if @category.save
+      flash[:success] = 'Category was successfully created.'
+      redirect_to @category
+    else
+      render :new
+    end
   end
 
   # PATCH/PUT /categories/1
   # PATCH/PUT /categories/1.json
   def update
-      if @category.update(category_params)
-         flash[:success] = 'Category was successfully updated.'
-         redirect_to @category
-      else
-         render :edit 
-      end
+    if @category.update(category_params)
+      flash[:success] = 'Category was successfully updated.'
+      redirect_to @category
+    else
+      render :edit
+    end
   end
 
   # DELETE /categories/1
   # DELETE /categories/1.json
   def destroy
     @category.destroy
-    flash[:danger]= 'Category was successfully destroyed.' 
-      redirect_to categories_url
+    flash[:danger] = 'Category was successfully destroyed.'
+    redirect_to categories_url
   end
 
   private
