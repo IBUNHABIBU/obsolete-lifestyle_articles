@@ -51,7 +51,7 @@ then open http://localhost:3000/
 
 ## [Live demo](https://lifestylearticle.herokuapp.com/ "Of the project") of the project
 
-## link to  [Video presentation](https://www.loom.com/share/b7035249ac8a4747b5c61bf785b6447d "Loom")
+## link to  [Video presentation](https://www.loom.com/share/ee056e3f2c984839a9c8a463381c46e5 "Loom")
 
 # Entity Relationship Diagram (ERD)
 
