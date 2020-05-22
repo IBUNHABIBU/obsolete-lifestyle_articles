@@ -2,7 +2,7 @@
 <div class="lower-col">
   <div class="article-img imsize">
                <div class="recent-color-overlay"></div>
-   <div class="bg-recent-img" style="background-image: url(<%= rails_blob_url(article.image) %>)"></div>
+   <div class="bg-recent-img" style="background-image: url(<%= rails_blob_url(article.image) %>)">
         
         <div class="show-art-cont">
             <% if article.categories.any? %>
@@ -12,7 +12,7 @@
             <%= link_to article.title , article_path(article) %>
         </div>
         </div>
-       
+       </div>
   </div>
 </div> 
 <% end %>
