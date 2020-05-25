@@ -10,9 +10,9 @@ Building this project is very important  because:
 
 ## Demo
 
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/feature2/assets/images/homepage.png)
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/feature2/assets/images/catshow.png)
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/app/assets/images/newarticle.png)
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/assets/images/homepage.png)
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/assets/images/catshow.png)
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/app/assets/images/newarticle.png)
 
 
 
