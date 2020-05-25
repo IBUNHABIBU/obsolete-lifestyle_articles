@@ -10,7 +10,7 @@ Building this project is very important  because:
 
 ## Demo
 
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/app/assets/images/homepage.png)
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/app/assets/images/Homepage.png)
 ![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/app/assets/images/catshow.png)
 ![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/app/assets/images/newarticle.png)
 
@@ -75,6 +75,6 @@ Navigate to the project folder make sure rspec is installed and then run the fol
 ## your support 
 Give a :star: if you liked this project 
 ## Acknowledgments
-Credits goes to Nelson Sakwa who designed this template on behance.net
+Credits goes to [Nelson Sakwa] who designed this template on [behance.net](https://www.behance.net/gallery/14554909/liFEsTlye-Mobile-version)
 ## 📝 License
-This project is MIT licensed.
+This project is [MIT] licensed.
