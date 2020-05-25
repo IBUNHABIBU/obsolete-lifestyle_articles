@@ -173,7 +173,7 @@ img{
      height: 100%;
 }
 .color-overlay{
-  width:100%;
+  width:69.4%;
   height:48.8%;
   position:absolute;
   background:#000000;
@@ -300,6 +300,7 @@ z-index:5;
 .flexbox{
   display:flex;
   flex-wrap:wrap;
+  border-top:8px solid #4e443f;
 }
 .item{
   display:flex;

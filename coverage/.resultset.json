@@ -42,7 +42,7 @@
           null,
           null,
           1,
-          null,
+          1,
           null,
           null,
           null,
@@ -447,7 +447,7 @@
           null,
           null,
           1,
-          4,
+          3,
           null,
           null,
           1,
@@ -463,6 +463,25 @@
       },
       "/home/ec2-user/environment/lifestyle_articles/app/helpers/users_helper.rb": {
         "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/ec2-user/environment/lifestyle_articles/spec/helpers/articles_helper_spec.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
           1,
           null
         ]
@@ -486,11 +505,26 @@
           null
         ]
       },
-<<<<<<< HEAD
-      "/home/ec2-user/environment/lifestyle_articles/spec/helpers/users_helper_spec.rb": {
-=======
+      "/home/ec2-user/environment/lifestyle_articles/spec/helpers/likes_helper_spec.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
       "/home/ec2-user/environment/lifestyle_articles/spec/helpers/sessions_helper_spec.rb": {
->>>>>>> dev
         "lines": [
           1,
           null,
@@ -592,12 +626,8 @@
           1,
           1,
           1,
-<<<<<<< HEAD
           2,
           2,
-=======
-          1,
->>>>>>> dev
           null
         ]
       },
@@ -631,8 +661,7 @@
           1,
           1,
           1,
-<<<<<<< HEAD
-          5,
+          4,
           null
         ]
       },
@@ -691,161 +720,10 @@
           null
         ]
       },
-      "/home/ec2-user/environment/lifestyle_articles/spec/requests/categories_spec.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          10,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null,
-          1,
-          1,
-          1,
-          0,
-          0,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          0,
-          0,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          0,
-          0,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          0,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          0,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          0,
-          null,
-          null,
-          1,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          1,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          0,
-          0,
-          null,
-          null,
-          null,
-          1,
-          1,
-          0,
-          0,
-          null,
-          null,
-          null
-        ]
-      },
       "/home/ec2-user/environment/lifestyle_articles/spec/requests/likes_request_spec.rb": {
         "lines": [
           1,
           null,
-          1,
-          null
-        ]
-      },
-      "/home/ec2-user/environment/lifestyle_articles/spec/requests/sessions_request_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null
-        ]
-      },
-      "/home/ec2-user/environment/lifestyle_articles/spec/requests/users_request_spec.rb": {
-        "lines": [
-          1,
-          null,
-=======
->>>>>>> dev
           1,
           null
         ]
@@ -901,26 +779,17 @@
           null,
           null,
           1,
-<<<<<<< HEAD
           1,
           1,
           1,
-=======
-          0,
-          0,
-          0,
->>>>>>> dev
           null,
           null,
           null,
           null,
           1,
-<<<<<<< HEAD
           0,
           0,
           null,
-=======
->>>>>>> dev
           null,
           null,
           1,
@@ -1006,15 +875,9 @@
           null,
           null,
           1,
-<<<<<<< HEAD
-          9,
+          7,
           3,
-          6,
-=======
-          0,
-          0,
-          0,
->>>>>>> dev
+          4,
           0,
           0,
           0,
@@ -1099,11 +962,7 @@
           null,
           null,
           1,
-<<<<<<< HEAD
-          1,
-=======
           0,
->>>>>>> dev
           null,
           null,
           null,
@@ -1155,7 +1014,6 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/home/ec2-user/environment/lifestyle_articles/app/controllers/users_controller.rb": {
         "lines": [
           1,
@@ -1185,23 +1043,10 @@
           1,
           1,
           null,
-=======
-      "/home/ec2-user/environment/lifestyle_articles/app/models/user.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
->>>>>>> dev
           null
         ]
       }
     },
-<<<<<<< HEAD
-    "timestamp": 1590003234
-=======
-    "timestamp": 1590003172
->>>>>>> dev
+    "timestamp": 1590440610
   }
 }

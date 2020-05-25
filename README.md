@@ -8,6 +8,14 @@ Building this project is very important  because:
 * You will get feedback about the achievement of technical and soft 
   skills gained during this section of the program.
 
+## Demo
+
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/app/assets/images/homepage.png)
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/app/assets/images/catshow.png)
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/app/assets/images/newarticle.png)
+
+
+
 ## Built with 
 * Ruby on rails
 * Bootstrap
@@ -49,6 +57,9 @@ Clone this repository and run the following commands \
  
 then open http://localhost:3000/
 
+## Run tests
+Navigate to the project folder make sure rspec is installed and then run the following command 
+`$rspec -f d` 
 ## [Live demo](https://lifestylearticle.herokuapp.com/ "Of the project") of the project
 
 ## link to  [Video presentation](https://www.loom.com/share/ee056e3f2c984839a9c8a463381c46e5 "Loom")
@@ -62,3 +73,7 @@ then open http://localhost:3000/
 
 ## your support 
 Give a :star: if you liked this project 
+## Acknowledgments
+Credits goes to Nelson Sakwa who designed this template on behance.net
+## 📝 License
+This project is MIT licensed.
