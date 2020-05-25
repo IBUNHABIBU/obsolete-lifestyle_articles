@@ -172,6 +172,38 @@ img{
      width: 100%;
      height: 100%;
 }
+.color-overlay{
+  width:100%;
+  height:48.8%;
+  position:absolute;
+  background:#000000;
+  opacity:0.7;
+  background-size:cover;
+  z-index:4;
+ }
+
+.rated_title a{
+  color:#d15002;
+  font-weight:bold;
+  font-size: 2.1rem;
+  margin-left:2rem;
+  position:relative;
+  top:22rem;
+  z-index:5;
+}
+.rated_title a:hover{
+  color:#fe6001;
+  text-decoration:none;
+}
+.rated_content{
+  color:white;
+  font-size: 1.8rem;
+  position:relative;
+  top:23rem;
+  margin-left:2rem;
+  z-index:5;
+}
+
 // *****************STYLING CATEGORY IN MOST RECENT ARTICLE *****************
 
 .article-show-page{
@@ -229,14 +261,14 @@ text-decoration:none;
   background-size:cover;
   z-index:4;
  }
- .article-title-front a{
+.article-title-front a{
  font-size: 2rem;
   color:#fff;
   margin-left:1rem;
 text-decoration: none;
 position:relative;
 // bottom:8rem;
-top:14rem;
+top:15rem;
 z-index:5;
 }
 //  **************************END STYLING MOST RECENT ARTICLES *************************
@@ -272,22 +304,26 @@ z-index:5;
 .item{
   display:flex;
   width:667px;
-  height:300px;
+  height:268px;
 }
 .pic{
   width:50%;
-  height:300px;
+  height:268px;
 }
 .sub{
   width:50%;
   height:300px;
   padding-left:1rem;
 }
+.ar-title{
+  margin-top:2rem;
+}
 
 .ar-title a{
   color:#756d69;
   font-weight:bold;
   text-decoration:none;
+  
 }
 .ar-title a:hover{
   color:#f9a623;
@@ -307,7 +343,7 @@ z-index:5;
   flex-direction: row-reverse;
 }
 #cat-show-container{
-  height:100%;
+  // height:100%;
 }
 .cat-index{
   height:100vh;
@@ -330,25 +366,6 @@ bottom: 0;
 
 
 // ********************************ARTICLE TITLE AND BODY *******************************
-.rated_title a{
-  color:#d15002;
-  font-weight:bold;
-  font-size: 2.1rem;
-  margin-left:2rem;
-  position:relative;
-  // bottom:10rem;
-}
-.rated_title a:hover{
-  color:#fe6001;
-  text-decoration:none;
-}
-.rated_content{
-  color:white;
-  font-size: 1.8rem;
-  position:relative;
-  // bottom:9rem;
-  margin-left:2rem;
-}
 
 // *********************************END OF ARTICLE TITLE AND BODY ******************************
 
