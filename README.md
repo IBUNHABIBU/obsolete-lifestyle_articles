@@ -10,8 +10,8 @@ Building this project is very important  because:
 
 ## Demo
 
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/app/assets/images/homepage.png)
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/app/assets/images/catshow.png)
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/feature2/assets/images/homepage.png)
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/feature2/assets/images/catshow.png)
 ![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/app/assets/images/newarticle.png)
 
 
@@ -59,6 +59,7 @@ then open http://localhost:3000/
 
 ## Run tests
 Navigate to the project folder make sure rspec is installed and then run the following command 
+
 `$rspec -f d` 
 ## [Live demo](https://lifestylearticle.herokuapp.com/ "Of the project") of the project
 
