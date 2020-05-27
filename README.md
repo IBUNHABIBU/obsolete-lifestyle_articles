@@ -74,6 +74,7 @@ Navigate to the project folder make sure rspec is installed and then run the fol
 Give a :star: if you liked this project 
 ## Acknowledgments
 Credits goes to
+
 -[Nelson Sakwa](https://www.behance.net/gallery/14554909/liFEsTlye-Mobile-version) who designed this template on [behance.net](https://www.behance.net/gallery/14554909/liFEsTlye-Mobile-version)
 - My mentor Raphael Noriode for technical assistance
 - All Microverse TSEs for their feedback that make me to improve technically
