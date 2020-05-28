@@ -12,7 +12,7 @@ RSpec.feature 'Articles creation', type: :feature do
     # check('News')
     article.user_id = user.id
     click_button('Create Article')
-     expect(page).to have_content('Article was successfully created.')
+    expect(page).to have_content('Article was successfully created.')
     expect(page).to have_content('Soundation')
   end
 
