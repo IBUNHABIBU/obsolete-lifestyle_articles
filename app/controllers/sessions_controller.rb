@@ -5,6 +5,7 @@ class SessionsController < ApplicationController
     user = User.find_by(name: params[:session][:name])
     if user
       log_in user
+      flash[:success] = 'You have registered successfully. '
       redirect_to articles_path
     else
       flash.now[:danger] = 'User not present! Please register'

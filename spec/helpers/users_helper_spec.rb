@@ -10,6 +10,10 @@ require 'rails_helper'
 #     end
 #   end
 # end
-RSpec.describe UsersHelper, type: :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
-end
+
+  def login(user)
+    visit login_path
+    fill_in 'Name', with: user.name
+    click_button 'Login'
+  end
+
