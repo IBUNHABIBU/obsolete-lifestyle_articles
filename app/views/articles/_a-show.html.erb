@@ -1,0 +1,15 @@
+
+<div class="flexbox">
+    <% obj.each do |article| %>
+    <div class="item">
+        <div class="pic"><%= image_tag(article.image) %></div>
+        <div class="sub">
+            <% if article.categories.any? %>
+             <h4 class="cat-title"><%= render article.categories %></h3>
+            <% end %>
+            <h4 class="ar-title"><%= link_to article.title , article_path(article) %></h3>
+            <p class="show-article-body"><%= truncate(article.content, length:200, separator:' ') %></p>
+        </div>
+    </div>
+   <% end %>
+</div>

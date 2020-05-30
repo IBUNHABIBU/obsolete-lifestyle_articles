@@ -1,0 +1,51 @@
+// ***********************STYLING THE FOOTER**********************************
+footer{
+background-color: #4e443f;
+height:60px;
+margin-top:auto;
+padding-bottom:1rem;
+z-index:4;
+   }
+   .footer-icons {
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    justify-content: flex-end;
+     margin: auto;
+    margin-right: 11rem;
+    position: relative;
+    bottom:2.8rem;
+}
+.footer-icons li {
+     margin: 8px;
+}
+.footer-icons a {
+    font-size: 18px;
+    display: grid;
+    height: 40px;
+    width: 40px;
+    color: #5b453a;
+    background-color: #fe6001;
+    place-content: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.footer-icons a:hover {
+    background: transparent;
+    border: 2px solid #333;
+    color:#fedac3;
+}
+footer .foot h3{
+  color:white;
+  margin-left:2rem;
+}
+.foot p {
+  color:#c35616;
+  position:relative;
+  top:2rem;
+  left:39rem;
+}
+.copy{
+  color:white;
+}
+//**************************END OF STYLING FOOTER****************************

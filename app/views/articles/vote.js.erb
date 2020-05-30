@@ -1,0 +1,7 @@
+<% if current_user.liked? @article %>
+ $('.like-btn').addClass('liked');
+ <% else %> 
+ $('.like-btn').addClass('like-btn');
+<% end %>
+
+$('.likes-count').html("<%= @article.get_upvotes.size %>");

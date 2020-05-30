@@ -1,0 +1,91 @@
+// Place all the styles related to the sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// @import "bootstrap";
+
+// ******************************styling the login page**********************************
+.login{
+  height:84%;
+}
+.register{
+  height:504px;
+}
+.authentication{
+  float:right;
+}
+.auth-link{
+  text-align:center;
+  text-decoration:none;
+  font-size:1.7rem;
+  text-transform:uppercase;
+  color:#787980;
+  display:flex;
+  align-items :baseline;
+}
+.form-horizontal .form-group {
+    margin-left: 19rem;
+}
+.control-label .col-sm-1 {
+   padding:0;
+   margin:0;
+}
+.vertical-line{
+  border-right: 2.5px solid #787980;
+  padding-right: 1.2rem;
+  margin-right: 1rem;
+  height:2rem;
+}
+.auth-li{
+  list-style:none;
+  width:auto;
+  float:left;
+  margin-top:18px;
+  margin-left:1rem;
+  display:flex;
+  align-items :baseline;
+}
+.auth-div{
+  margin-right:5rem;
+ }
+ 
+// styling the create button
+.dropbtn {
+  background-color:White;
+  color: #cfcecc;
+  font-size:2rem;
+  border: none;
+  cursor: pointer;
+  text-transform:uppercase;
+}
+
+.dropdown {
+  display: inline-block;
+  margin-right:2rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f1f1f1;
+}
+

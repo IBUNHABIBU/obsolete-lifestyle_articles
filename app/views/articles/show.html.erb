@@ -1,0 +1,57 @@
+<div class="article-show-page">
+<h1 align="center">
+  <%= @article.title %>
+</h1>
+<div class="show-div-flex">
+  <div class="imsize " align="center">
+ 
+</div>
+<div class="cont-show">
+  <p>
+  
+  <%= @article.content %>
+</p>
+</div>
+<div class="vote-sect">
+ 
+<% if current_user %>
+    <% if @current_like %>
+        <div>
+          <span>
+            <p>
+              <%= button_to "Unlike", article_like_path(@article, @current_like), class:"btn btn-warning", method: :delete %>
+            </p>
+          </span>
+        </div>
+    <% else %>
+        <div>
+          <span>
+            <p>
+              <%= button_to "like" ,article_likes_path(@article), class:"btn btn-primary" %>
+            </p>
+          </span>
+        </div>
+    <% end %>
+<% end %>
+<span class="likes-count">
+  <%= @likers.size %>
+</span>
+<p>
+  <strong>Author:</strong>
+  <%= @article.user.name %>
+</p>
+<% if @article.categories.any? %>
+<div class="cat-s">
+<p><span class="categories">Categories: </span><%= render @article.categories %></p>
+</div>
+
+<% end %>
+
+<%= link_to 'Delete this article', article_path(@article), class:"btn btn-danger", method: :delete, data: { confirm: 'Are you sure?' } %>
+
+</div>
+</div>
+<!--<%= link_to 'Edit', edit_article_path(@article) %> |-->
+
+<!--<%= link_to 'Back', articles_path %>-->
+</div>

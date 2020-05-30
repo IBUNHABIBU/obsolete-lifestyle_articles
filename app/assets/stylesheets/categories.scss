@@ -1,0 +1,71 @@
+// Place all the styles related to the categories controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// **************************CATEGORY SHOW PAGE******************************************
+.flexbox{
+  display:flex;
+  flex-wrap:wrap;
+  border-top:8px solid #4e443f;
+}
+.item{
+  display:flex;
+  width:667px;
+  height:268px;
+}
+.pic{
+  width:50%;
+  height:268px;
+}
+.sub{
+  width:50%;
+  height:300px;
+  padding-left:1rem;
+}
+.ar-title{
+  margin-top:2rem;
+}
+
+.ar-title a{
+  color:#756d69;
+  font-weight:bold;
+  text-decoration:none;
+  
+}
+.ar-title a:hover{
+  color:#f9a623;
+  font-weight:bold;
+}
+.show-article-body{
+  font-size:2rem;
+}
+
+.item:nth-child(3){
+ display: flex;
+  flex-direction: row-reverse;
+}
+
+.item:nth-child(4){
+ display: flex;
+  flex-direction: row-reverse;
+}
+#cat-show-container{
+   height:544px;
+}
+.cat-index{
+  height:100vh;
+}
+
+.flexbox .item span #c-title-id{
+  font-weight:bold;
+border-bottom:3px solid #9a9014;
+padding-bottom: 0.1rem;
+color:#9a9014;
+text-decoration: none;
+margin-bottom: 1.1rem;
+width:8rem;
+position: relative;
+bottom: 0; 
+left: 0rem; 
+}
+// *******************END OF CATEGORY SHOW PAGE******************************

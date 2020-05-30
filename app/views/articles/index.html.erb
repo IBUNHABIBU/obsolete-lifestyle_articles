@@ -1,0 +1,27 @@
+<div class="front">
+   <div class="first-container">
+       <div class="most_rated">
+        <% @most_rated_articles.each do |article| %>
+             
+               <div class="color-overlay"></div>
+              <div class="bg-img" style="background: url(<%= rails_blob_url(article.image) %>)">
+                 <div class="rated_title">
+                   <%=  link_to "#{article.title}", article_path(article) %>
+                 </div>
+                 <div class="rated_content">
+                      <%= truncate(article.content, length:200, separator:' ') %>
+                 </div>
+              </div>
+             
+        <% end %>
+       </div>
+      <div class="weather-image">
+           <%= image_tag("weather.jpg", :alt => "weather pic") %>
+      </div>
+   </div>
+   <div class="second-container">
+          <%= render 'article', obj:@recent_articles %>
+   </div>
+</div>
+   
+ 

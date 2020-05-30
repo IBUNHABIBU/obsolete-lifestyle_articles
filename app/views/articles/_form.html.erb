@@ -1,0 +1,80 @@
+
+<%= form_for(@article, :html => {class: "form-horizontal", role: "form"}) do |f| %>
+
+<%= render 'shared/error_messages', object: @article %>
+    <div class="form-group">
+
+        <div class="control-label col-sm-2">
+        
+        <%= f.label :title %>
+        
+        </div>
+
+        <div class="col-sm-6">
+        
+        <%= f.text_field :title, class: "form-control", autofocus: true %>
+        
+        </div>
+
+    </div>
+    
+    <div class="form-group">
+
+        <div class="control-label col-sm-2">
+        
+        <%= f.label :content %>
+        
+        </div>
+
+        <div class="col-sm-6">
+        
+        <%= f.text_area :content, class: "form-control", autofocus: true %>
+        
+        </div>
+
+    </div>
+    
+    <div class="form-group">
+
+        <div class="control-label col-sm-2">
+        
+        <%= f.label :image %>
+        
+        </div>
+
+        <div class="col-sm-6">
+        
+        <%= f.file_field :image, class: "form-control", autofocus: true %>
+        
+        </div>
+
+    </div>
+    
+    
+<div class="form-group">
+
+<div class="row">
+
+<div class="col-sm-offset-2 col-sm-8">
+        
+<%= f.collection_check_boxes :category_ids, Category.all, :id, :name do |cb| %>
+
+<%= cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+
+<% end %>
+
+        </div>
+
+    </div>
+    </div>
+    <div class="form-group">
+
+        <div class="col-sm-offset-2 col-sm-10">
+        
+        <%= f.submit class: 'btn btn-primary btn-lg col-sm-7' %>
+        
+        </div>
+
+    </div>
+
+<% end %>
