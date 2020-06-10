@@ -234,7 +234,7 @@ GEM
 PLATFORMS
   ruby
 
-DEPENDENCIES
+
   airbrake
   autoprefixer-rails
   awesome_print
