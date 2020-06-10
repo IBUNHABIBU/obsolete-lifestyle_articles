@@ -65,7 +65,7 @@ Navigate to the project folder make sure rspec is installed and then run the fol
 
 # Entity Relationship Diagram (ERD)
 
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/app/assets/images/ERD__articles.png)
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/app/assets/images/ERD__articles.png)
 
 ## Author
 * Github: [IBUNHABIBU](https://github.com/IBUNHABIBU)
