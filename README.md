@@ -69,8 +69,6 @@ Navigate to the project folder make sure rspec is installed and then run the fol
 
 ## Author
 * Github: Salum Habibu https://github.com/IBUNHABIBU 
-* Twitter: https://twitter.com/Ibunhabibu
-* LinkedIn: https://www.linkedin.com/in/salum-habibu/ 
 
 ## your support 
 Give a :star: if you liked this project 
