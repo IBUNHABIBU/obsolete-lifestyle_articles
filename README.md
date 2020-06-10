@@ -68,7 +68,9 @@ Navigate to the project folder make sure rspec is installed and then run the fol
 ![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/dev/app/assets/images/ERD__articles.png)
 
 ## Author
-* Github: Salum Habibu https://github.com/IBUNHABIBU 
+* Github: [IBUNHABIBU](https://github.com/IBUNHABIBU)
+* Twitter: [@ibunhabibu](https://twitter.com/Ibunhabibu)
+* LinkedIn: [Salum Habibu Kombo](https://www.linkedin.com/in/salum-habibu/)
 
 ## your support 
 Give a :star: if you liked this project 
