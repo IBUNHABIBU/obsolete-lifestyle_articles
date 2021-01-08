@@ -4,7 +4,7 @@ Microverse Main technical curriculum section.
 Building this project is very important  because:
 
 * It's a real-world-like project, built with business specifications 
-* that will look really nice in your portfolio and
+* that will look  nice in your portfolio and
 * You will get feedback about the achievement of technical and soft 
   skills gained during this section of the program.
 
@@ -15,13 +15,13 @@ Building this project is very important  because:
 
 
 ## Built with 
-* Ruby on rails
+* Ruby on Rails
 * Bootstrap
 * RSpec 
 
 ## Features 
   * Users 
-    * Signup/login/logout it's simple only username is required 
+    * Signup/login/logout its simple only username is required 
     * Create categories
     * Create articles with images
     * have many articles 
@@ -56,7 +56,7 @@ Clone this repository and run the following commands \
 then open http://localhost:3000/
 
 ## Run tests
-Navigate to the project folder make sure rspec is installed and then run the following command 
+Navigate to the project folder make sure Rspec is installed and then run the following command 
 
 `$rspec -f d` 
 ## [Live demo](https://lifestylearticle.herokuapp.com/ "Of the project") of the project
@@ -75,7 +75,7 @@ Navigate to the project folder make sure rspec is installed and then run the fol
 ## your support 
 Give a :star: if you liked this project 
 ## Acknowledgments
-Credits goes to
+Credits go to
 
 - [Nelson Sakwa](https://www.behance.net/gallery/14554909/liFEsTlye-Mobile-version) who designed this template on [behance.net](https://www.behance.net/gallery/14554909/liFEsTlye-Mobile-version)
 - My mentor Raphael Noriode for technical assistance
