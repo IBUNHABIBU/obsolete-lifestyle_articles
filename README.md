@@ -41,7 +41,7 @@ Building this project is very important  because:
 ## Requirement 
 * Ruby '~>2.6.3'
 * Rails '~>5.2.4' 
-* postgresql 9.2.24
+* PostgreSQL 9.2.24
 
 ## Usage
 Clone this repository and run the following commands \
