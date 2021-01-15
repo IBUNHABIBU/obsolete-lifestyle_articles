@@ -3,8 +3,28 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-# Lifestyle articles
 
+
+<p align="center">
+  <a href="git@github.com:IBUNHABIBU/platform-game.git">
+    <p align="center"> <img src="https://raw.githubusercontent.com/github/explore/b7c8510756ee50efb38d1f01896e72b7a9737296/topics/phaser/phaser.png" alt="Phaser" width="100" height="100"> </p>
+  </a>
+
+  <h2 align="center">  Lifestyle articles</h2>
+  <h3 align="center"> This is the Capstone project. It is done after completion of
+Microverse Main technical curriculum section. 
+Building this project is very important  because:
+
+* It's a real-world-like project, built with business specifications 
+* that will look  nice in your portfolio and
+* You will get feedback about the achievement of technical and soft 
+  skills gained during this section of the program.</h3>
+
+  <p align="center">
+    <a href="https://github.com/IBUNHABIBU/lifestyle_articles/issues">Report Bug</a>
+    <a href="https://github.com/IBUNHABIBU/lifestyle_articles/issues">Request Feature</a>
+  </p>
+</p>
 
 This is the Capstone project. It is done after completion of
 Microverse Main technical curriculum section. 
