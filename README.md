@@ -1,4 +1,11 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
 # Lifestyle articles
+
+
 This is the Capstone project. It is done after completion of
 Microverse Main technical curriculum section. 
 Building this project is very important  because:
