@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="git@github.com:IBUNHABIBU/platform-game.git">
-    <p align="center"> <img src="https://raw.githubusercontent.com/github/explore/b7c8510756ee50efb38d1f01896e72b7a9737296/topics/phaser/phaser.png" alt="Phaser" width="100" height="100"> </p>
+    <p align="center"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rails/rails.png" alt="Ruby on rails" width="100" height="100"> </p>
   </a>
 
   <h2 align="center">  Lifestyle articles</h2>
