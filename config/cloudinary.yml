@@ -1,0 +1,6 @@
+production:
+  cloud_name: "dubl5onvo"
+  api_key: "769113622111229"
+  api_secret: "Hn9u7sxsnGC-x0-C8uVARBZGKEE"
+  secure: true
+  cdn_subdomain: true
