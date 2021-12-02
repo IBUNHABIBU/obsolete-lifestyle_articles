@@ -100,6 +100,11 @@ Credits go to
 - [Nelson Sakwa](https://www.behance.net/gallery/14554909/liFEsTlye-Mobile-version) who designed this template on [behance.net](https://www.behance.net/gallery/14554909/liFEsTlye-Mobile-version)
 - My mentor Raphael Noriode for technical assistance
 - All Microverse TSEs for their feedback that make me to improve technically
+
+# Challenges I faced
+ -Edit the credentials
+   EDITOR=vim rails credentials:edit
+   sudo apt-get install vim
 ## 📝 License
 This project is [MIT](LICENCE) licensed.
 
