@@ -9,7 +9,7 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.2'
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem "image_processing", ">= 1.2"
-
+gem 'cloudinary'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'puma', '~> 3.11'
