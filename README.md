@@ -105,6 +105,9 @@ Credits go to
  -Edit the credentials
    EDITOR=vim rails credentials:edit
    sudo apt-get install vim
+  
+  rbenv: version `ruby-2.6.3' is not installed
+  `solution: rbenv install 2.6.3`
 ## 📝 License
 This project is [MIT](LICENCE) licensed.
 
