@@ -101,7 +101,7 @@ GEM
       factory_bot (~> 6.2.0)
       railties (>= 5.0.0)
     ffi (1.15.5)
-    ffi (1.15.5-x64-mingw-ucrt)
+    ffi (1.15.5-x64-unknown)
     globalid (1.0.0)
       activesupport (>= 5.0)
     http-accept (1.7.0)
