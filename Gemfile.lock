@@ -44,10 +44,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    airbrake (13.0.2)
-      airbrake-ruby (~> 6.0)
-    airbrake-ruby (6.1.1)
-      rbtree3 (~> 0.5)
     arel (9.0.0)
     autoprefixer-rails (10.4.7.0)
       execjs (~> 2)
@@ -184,7 +180,6 @@ GEM
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rbtree3 (0.7.0)
     regexp_parser (2.5.0)
     responders (3.0.1)
       actionpack (>= 5.0)
@@ -285,7 +280,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  airbrake
   autoprefixer-rails
   awesome_print
   bcrypt (~> 3.1.7)
