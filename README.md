@@ -109,6 +109,10 @@ Credits go to
   
   rbenv: version `ruby-2.6.3' is not installed
   `solution: rbenv install 2.6.3`
+
+  `undefined method 'signed_id' for nil:NilClass`
+  this is caused by no record in the active storage
+  solution: rails db:reset 
 ## 📝 License
 This project is [MIT](LICENCE) licensed.
 
