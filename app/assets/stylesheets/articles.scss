@@ -114,6 +114,7 @@ text-decoration:none;
   background-size:cover;
   z-index:4;
  }
+
 .article-title-front a{
  font-size: 2rem;
   color:#fff;
@@ -124,6 +125,17 @@ position:relative;
 top:15rem;
 z-index:5;
 }
+
+.article-title-front a:hover{
+  // font-size: 2rem;
+   color:#fff;
+//    margin-left:1rem;
+//  text-decoration: none;
+//  position:relative;
+//  // bottom:8rem;
+//  top:15rem;
+//  z-index:5;
+ }
 // ******************END OF STYLING MOST RECENT ARTICLE**********************************
 
 
