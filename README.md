@@ -28,9 +28,9 @@ Building this project is very important  because:
 * You will get feedback about the achievement of technical and soft 
   skills gained during this section of the program.
 
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/app/assets/images/Homepage.png)
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/app/assets/images/catshow.png)
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/app/assets/images/newarticle.png)
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/development/app/assets/images/Homepage.png)
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/development/app/assets/images/catshow.png)
+![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/development/app/assets/images/newarticle.png)
 
 
 
