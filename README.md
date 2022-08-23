@@ -58,7 +58,10 @@ Building this project is very important  because:
     * Belongs to user
     * Belongs to article
 
-
+## Next version 
+  * mobile responsive
+  * admin requirement
+  * same user is able to delete his own article
 
 ## Requirement 
 * Ruby '~>3.1.0'
