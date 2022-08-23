@@ -5,8 +5,8 @@
              
                <div class="color-overlay"></div>
               <div class="bg-img" style="background: url(<%= rails_blob_url(article.image) %>)">
-                 <div class="rated_title">
-                   <%=  link_to "#{article.title}", article_path(article) %>
+                 <div class="rated_title" id="rated_title">
+                   <%=  link_to "#{article.title}", article_path(article), class:"title-link" %>
                  </div>
                  <div class="rated_content">
                       <%= truncate(article.content, length:200, separator:' ') %>

@@ -8,20 +8,24 @@
   flex-wrap:wrap;
   border-top:8px solid #4e443f;
 }
+
 .item{
   display:flex;
   width:667px;
   height:268px;
 }
+
 .pic{
   width:50%;
   height:268px;
 }
+
 .sub{
   width:50%;
   height:300px;
   padding-left:1rem;
 }
+
 .ar-title{
   margin-top:2rem;
 }
@@ -32,10 +36,12 @@
   text-decoration:none;
   
 }
+
 .ar-title a:hover{
   color:#f9a623;
   font-weight:bold;
 }
+
 .show-article-body{
   font-size:2rem;
 }
@@ -49,6 +55,7 @@
  display: flex;
   flex-direction: row-reverse;
 }
+
 #cat-show-container{
    height:544px;
 }
