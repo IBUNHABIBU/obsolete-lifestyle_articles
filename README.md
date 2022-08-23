@@ -58,9 +58,11 @@ Building this project is very important  because:
     * Belongs to user
     * Belongs to article
 
+
+
 ## Requirement 
-* Ruby '~>2.6.3'
-* Rails '~>5.2.4' 
+* Ruby '~>3.1.0'
+* Rails '~>7.0.3' 
 * PostgreSQL 9.2.24
 
 ## Usage
