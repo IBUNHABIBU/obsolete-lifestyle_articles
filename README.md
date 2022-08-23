@@ -113,6 +113,11 @@ Credits go to
   `undefined method 'signed_id' for nil:NilClass`
   this is caused by no record in the active storage
   solution: rails db:reset 
+
+  State changed from starting to crashed
+  error code=H10
+  The above error was caused by typing error of variables
+  instead of :amazon I typed :amazone in production.rb file
 ## 📝 License
 This project is [MIT](LICENCE) licensed.
 
