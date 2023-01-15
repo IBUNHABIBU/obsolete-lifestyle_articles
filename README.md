@@ -123,6 +123,8 @@ Credits go to
   error code=H10
   The above error was caused by typing error of variables
   instead of :amazon I typed :amazone in production.rb file
+
+  web: rake db:migrate && bin/rails server -b 0.0.0.0 -p { PORT: -3000 } && bin/rails css:watch
 ## 📝 License
 This project is [MIT](LICENCE) licensed.
 
