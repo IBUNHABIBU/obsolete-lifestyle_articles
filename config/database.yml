@@ -85,5 +85,5 @@ production:
   <<: *default
   database: lifestyle_articles_production
   url: <%= ENV['ENV_DATABASE_URL'] %>
-  # username: lifestyle_articles
-  # password: <%= ENV['LIFESTYLE_ARTICLES_DATABASE_PASSWORD'] %>
+  username: lifestyle_articles
+  password: <%= ENV['LIFESTYLE_ARTICLES_DATABASE_PASSWORD'] %>
