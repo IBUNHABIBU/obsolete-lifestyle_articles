@@ -8,10 +8,10 @@ gem 'rails', '~> 7.0.3'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem "image_processing", ">= 1.2"
-gem 'aws-sdk-s3'
 gem 'autoprefixer-rails'
+gem 'aws-sdk-s3'
 gem 'bootstrap-sass'
+gem 'image_processing', '>= 1.2'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'jquery-rails'
