@@ -12,7 +12,7 @@ gem 'autoprefixer-rails'
 gem 'aws-sdk-s3'
 gem 'bootstrap-sass'
 gem 'image_processing', '>= 1.2'
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
 gem 'jquery-rails'
 gem 'sassc-rails'
