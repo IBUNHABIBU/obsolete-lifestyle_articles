@@ -79,14 +79,8 @@
   height:100%;
 
 }
-.cat-s p .category-t{
-  color:#9a9014;
-  position:relative;
-  bottom:0;
-}
-.cat-s p{
-  margin-bottom:2rem;
-}
+
+
 .categories{
   position:relative;
   top:1rem;
@@ -179,6 +173,17 @@ z-index:5;
     .vote-sect{
       padding:3rem;
       background:#f8f8f8;
+
+      .cat-s {
+        p {
+          margin-bottom:2rem;
+          .categories {
+            color:#9a9014;
+            position:relative;
+            bottom:0;
+          }
+        }
+      }
     }
   }
 }
