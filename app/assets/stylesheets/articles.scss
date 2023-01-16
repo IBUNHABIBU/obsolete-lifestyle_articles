@@ -77,6 +77,7 @@
 
 .article-show-page{
   height:100%;
+
 }
 .cat-s p .category-t{
   color:#9a9014;
@@ -156,26 +157,32 @@ z-index:5;
 
 // ******************ARTICLE SHOW PAGE*****************************************
 
+.article-show-page{
+  .show-div-flex {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-image:url('<%= url_for(@article.image) %>');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
 
-.show-div-flex{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  background-image:url('<%= url_for(@article.image) %>');
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size:cover;
-}
-.cont-show{
-  background:#f8f8f8;
-  font-size:2rem;
-  padding:2rem;
-}
-.vote-sect{
-  padding:3rem;
-  background:#f8f8f8;
-}
+    .imsize {
 
+    }
+    .cont-show{
+      background:#f8f8f8;
+      font-size:2rem;
+      padding:2rem;
+    }
+
+    .vote-sect{
+      padding:3rem;
+      background:#f8f8f8;
+    }
+  }
+}
+   
  .cat-show-cont{
       height:100%;
   }
