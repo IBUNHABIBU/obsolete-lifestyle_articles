@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+gem 'sass'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -68,3 +69,5 @@ gem 'rails_12factor', group: :production
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'simplecov', require: false, group: :test
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+
+gem "cssbundling-rails", "~> 1.1"
